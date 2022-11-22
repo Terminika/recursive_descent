@@ -1,5 +1,7 @@
 #include "recursive.h"
 
+const char* s = NULL;
+
 int GetN()
 {
     int val = 0;
@@ -70,9 +72,9 @@ int GetP()
     return val;
 }
 
-int GetG()
+int GetG(const char* str)
 {
-    //s = str;
+    s = str;
     int val = GetE();
     assert(*s == '\0');
     return val;

@@ -3,7 +3,5 @@
 
 int main()
 {
-    s = "2 + 6";
-    printf("%d\n", GetG());
-
+    printf("%d\n", GetG("2+4"));
 }

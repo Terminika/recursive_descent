@@ -4,7 +4,6 @@
 #include <stdio.h>
 #include <assert.h>
 
-const char* s = NULL;
 
 int GetN();
 int GetT();
